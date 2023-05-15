@@ -1,0 +1,10 @@
+<?php
+   $string = "HTTP status code:200";
+   $pattern = '/HTTP status code:200/';
+
+   if (preg_match($pattern, $string)) {
+      echo "Match found!";
+   } else {
+      echo "No match found.";
+}
+?>
